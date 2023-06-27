@@ -1,0 +1,20 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx node-dev src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiz Felipe Escandiuzzi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "node-dev": "^8.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
