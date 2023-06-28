@@ -31,7 +31,7 @@ async fn main()-> Result<(), reqwest::Error>  {
     //create_named_pipe(pipe_name);
 
     // Sender application
-    let message = "Hello, Luiz Felipe Escandiuzzi!";
+    let message = "message";
     send_data(pipe_name, message);
 
     let data = receive_data(pipe_name);
